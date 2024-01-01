@@ -1,0 +1,9 @@
+@media screen and (max-width:835px) {
+    .cont{
+        flex-direction: column;
+        align-items: center;
+    }
+    .left{
+        width: 80%;
+    }
+}
