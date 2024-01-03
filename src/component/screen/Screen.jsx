@@ -41,6 +41,7 @@ export default function Screen() {
       <div className='bg-[#235777] rounded-xl w-3/5 right'>
         <Nav onMenuClick={handleMenuClick} />
         {renderSection()}
+      
       </div>
     </div>
   );

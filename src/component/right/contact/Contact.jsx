@@ -8,7 +8,6 @@ import  twitter from './Assects/twitter.png'
 import coffeesponsort from './Assects/coffee-sponsort.png'
 import githubsponsors from './Assects/github-sponsors.png'
 import paypalme from './Assects/paypalme.png'
-import ButtomNext from '../Heaading/ButtomNext';
 import './contact.css'
 export default function Contact() {
   return (
@@ -53,7 +52,6 @@ export default function Contact() {
           </div>
         </div>
       </div>
-      <ButtomNext></ButtomNext>
     </div>
   );
 }
