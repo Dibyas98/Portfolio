@@ -6,6 +6,7 @@ import Heading from '../right/Heaading/Heading'
 import About from '../right/AboutMe/About'
 import Certificates from '../right/Certi/Certificates'
 import MyProject from '../right/project/MyProject'
+import More from '../right/More/More'
 
 export default function Screen() {
   return (
@@ -17,7 +18,8 @@ export default function Screen() {
           <Nav></Nav>
           {/* <About></About> */}
           {/* <Certificates></Certificates> */}
-          <MyProject></MyProject>
+          {/* <MyProject></MyProject> */}
+          <More>  </More>
         </div>
       
     </div>
