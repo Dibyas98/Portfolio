@@ -1,0 +1,16 @@
+@media screen and (max-width: 844px) {
+    .navbar {
+        position: fixed;
+        bottom: 0;
+        /* width: 100%; */
+        padding: 0;
+        overflow: hidden;
+        float: none;
+        border-radius: 0;
+        border-radius: 10px 10px 0 0;
+        width: 100%;
+        z-index: 100;
+    }
+}
+
+    
