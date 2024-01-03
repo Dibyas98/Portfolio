@@ -10,7 +10,7 @@ import tinnitusblog from './Assects/tinnitus-blog.png'
 import ButtomNext from '../Heaading/ButtomNext'
 import './project.css'
 
-export default function MyProject() {
+export default function MyProject({next}) {
   return (
     <div className='pb-10'>
       <Heading head={'My Projects'}></Heading>
@@ -27,7 +27,7 @@ export default function MyProject() {
         <ProjectCard pic={mybestwishes} name={'MyBestWishes AI Generator'} des ={`Design + Frontend Figma | React.js | Chakra UI`} show={`Preview`}/>
       </div>
       </div>
-      <ButtomNext></ButtomNext>
+      <ButtomNext next={next} aft={`More`}></ButtomNext>
     </div>
   )
 }

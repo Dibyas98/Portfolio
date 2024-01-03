@@ -8,7 +8,7 @@ import HumanLang from './HumanLang'
 import Favorite from './Favorite'
 import ButtomNext from '../Heaading/ButtomNext'
 
-export default function About() {
+export default function About({next}) {
   return (
     <div className='pb-10'>
       <Heading head={'About Me'}></Heading>
@@ -18,7 +18,7 @@ export default function About() {
       <Program></Program>
       <HumanLang></HumanLang>
       <Favorite></Favorite>
-      <ButtomNext></ButtomNext>
+      <ButtomNext next={next} aft={`Certificates`}></ButtomNext>
     </div>
   )
 }

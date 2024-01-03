@@ -9,25 +9,29 @@ import More from '../right/More/More';
 import Contact from '../right/contact/Contact';
 
 export default function Screen() {
+  const arr =['About','Certificates','Projects','More','Contact']
+  const [count,setcount]=useState(0)
   const [live, setLive] = useState('About'); 
+  const HandelNext =(arg)=>{
+    setLive(arg)
+  }
 
   const handleMenuClick = (section) => {
-    console.log(section);
     setLive(section);
   };
 
   const renderSection = () => {
     switch (live) {
       case 'About':
-        return <About />;
+        return <About next={HandelNext}/>;
       case 'Certificates':
-        return <Certificates></Certificates>;
+        return <Certificates next={HandelNext}></Certificates>;
       case 'Projects':
-        return <MyProject/>
+        return <MyProject next={HandelNext}/>
       case 'More':
-        return <More/>
+        return <More next={HandelNext}/>
       case 'Contact':
-        return <Contact></Contact>
+        return <Contact next={HandelNext}></Contact>
       default:
         return null;
     }

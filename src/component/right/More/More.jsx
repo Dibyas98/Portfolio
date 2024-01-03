@@ -7,7 +7,7 @@ import shapixels from './Assects/sha-pixels.png'
 import ButtomNext from '../Heaading/ButtomNext';
 
 
-export default function More() {
+export default function More({next}) {
     return (
         <div className='pb-10'>
             <Heading head={'Side Projects'}></Heading>
@@ -18,7 +18,7 @@ export default function More() {
 
                 <MoreCard pic={shapixels} name={`Pigletz`} head={`Marketing & BizDev Content Creator`} des={`I create and manage the Pigletz community's social media presence, including producing and editing high-quality Web3 content for their YouTube channel. I also work on expanding the community's reach and impact through partnerships in the Web3 space.`}></MoreCard>            </div>
            </div>
-           <ButtomNext></ButtomNext>
+           <ButtomNext next={next} aft={`Contact`}></ButtomNext>
         </div>
     )
 }

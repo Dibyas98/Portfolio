@@ -6,7 +6,7 @@ import pic1 from './Assects/1.png'
 import ButtomNext from '../Heaading/ButtomNext'
 
 
-export default function Certificates() {
+export default function Certificates({next}) {
   return (
     <div className='pb-10'>
       <Heading head={'My Certificates'} />
@@ -59,7 +59,7 @@ export default function Certificates() {
           <CertiCard ins={`LinguaTV GmbH`} top={`English Language B2`} pic={pic1}></CertiCard>
         </div>
         </div>
-        <ButtomNext/>
+        <ButtomNext next={next} aft={`Projects`}/>
     </div>
   )
 }
