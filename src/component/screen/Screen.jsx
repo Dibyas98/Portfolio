@@ -4,6 +4,8 @@ import './screen.css'
 import Nav from '../right/nav/nav'
 import Heading from '../right/Heaading/Heading'
 import About from '../right/AboutMe/About'
+import Certificates from '../right/Certi/Certificates'
+import MyProject from '../right/project/MyProject'
 
 export default function Screen() {
   return (
@@ -13,7 +15,9 @@ export default function Screen() {
         </div>
         <div className='bg-[#235777] rounded-xl w-3/5  right'>
           <Nav></Nav>
-          <About></About>
+          {/* <About></About> */}
+          {/* <Certificates></Certificates> */}
+          <MyProject></MyProject>
         </div>
       
     </div>
