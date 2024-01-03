@@ -1,0 +1,8 @@
+.morecard{
+    width: 48%;
+}
+@media screen and (max-width:800px) {
+    .morecard{
+        width: 100%;
+    }
+}

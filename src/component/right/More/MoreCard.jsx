@@ -1,9 +1,9 @@
 import React from "react";
-import pigletz from "./Assects/pigletz.jpg";
+import './more.css'
 
 export default function MoreCard(props) {
   return (
-    <div className=" bg-[#21475F] pb-5  rounded-xl" style={{width:'48%'}}>
+    <div className=" bg-[#21475F] pb-5  rounded-xl morecard" >
       <img src={props.pic} alt=""  className="rounded-xl"/>
       <div className="flex flex-col px-8 pt-5 gap-2">
         <h4 className="font-medium text-[#9AAFB6]">
