@@ -1,4 +1,4 @@
-@media screen and (max-width: 844px) {
+@media screen and (max-width: 843px) {
     .navbar {
         position: fixed;
         bottom: 0;
@@ -12,5 +12,12 @@
         z-index: 100;
     }
 }
+@media screen and (max-width: 900px) {
+    .navbar {
+    
+        padding: 0;
+    }
+}
+
 
     

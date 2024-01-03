@@ -6,6 +6,7 @@ import About from '../right/AboutMe/About';
 import Certificates from '../right/Certi/Certificates';
 import MyProject from '../right/project/MyProject';
 import More from '../right/More/More';
+import Contact from '../right/contact/Contact';
 
 export default function Screen() {
   const [live, setLive] = useState('About'); 
@@ -25,6 +26,8 @@ export default function Screen() {
         return <MyProject/>
       case 'More':
         return <More/>
+      case 'Contact':
+        return <Contact></Contact>
       default:
         return null;
     }
